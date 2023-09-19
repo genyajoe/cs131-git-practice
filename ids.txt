@@ -4,3 +4,16 @@
 14-17
 24-30,35
 42-43
+
+
+origin: remote server
+
+HEAD: where you are working on
+
+git push origin main (push main of the local to origin's main) they are two separate branches
+
+git fetch origin main (fetch head)
+
+git branch -a
+
+git log --all --graph --oneline
