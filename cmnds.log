@@ -1,0 +1,61 @@
+ 1873  mkdir sample-git0919
+ 1874  cd sample-git0919
+ 1876  git init
+ 1877  hit add .
+ 1879  git commit -m "first commit"
+ 1884  git commit -m "second edit"
+ 1886  git checkout 32d9482
+ 1892  git commit -m "oops\n
+ 1893  git commit -m "oops!
+ 1894  git commit -m "oops"
+ 1904  git reset HEAD hello.txt
+ 1905  git checkout hello.txt
+ 1908  git revert HEAD
+ 1909  git log
+ 1910  git checkout -b bye
+ 1914  git commit -m "added bye"
+ 1920  git commit -m "added hello"
+ 1922  git checkout greet
+ 1924  git merge main
+ 1925  git log --all
+ 1929  git add hello.txt
+ 1930  git commit -m "merging bye with main"
+ 1931  git log --graph
+ 1934  hit checkout bye
+ 1936  gti add .
+ 1944  git checkout bye
+ 1946  git rebase main
+ 1950  git commit -m "hi hi"
+ 1951  cat hello.txt
+ 1952  vim lab-ids.txt
+ 1956  git remote add origin git@github.com:genyajoe/sample0919.git
+ 1959  git remote remove origin
+ 1960  git remote add origin https://github.com/genyajoe/sample0919.git
+ 1961  git push -u origin main
+ 1962  git branches
+ 1963  git branch
+ 1964  git status
+ 1966  git commit -m "add ids"
+ 1969  git checkout main
+ 1972  git log --all --graph
+ 1975* cd Desktop/temp
+ 1976* git clone https://github.com/genyajoe/sample0919.git
+ 1977* cd sample0919
+ 1979* vim hello.txt
+ 1981* git commit -m "modify from another"
+ 1983  git log --all --online --graph
+ 1985  git fetch origin main
+ 1987  git merge origin.main
+ 1988  git merge origin/main
+ 1990  git merge bye
+ 1993  git log --all --oneline --graph
+ 1994  ls
+ 1997  git commit -m "add info"
+ 2000  git branck -a
+ 2001  git branch -a
+ 2002  git log --all --graph --online
+ 2003  git log --all --graph --oneline
+ 2004  vim ids.txt
+ 2005  git add .
+ 2006  git commit -m "added commands"
+ 2007  git push origin main
