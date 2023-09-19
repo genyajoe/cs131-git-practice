@@ -2,6 +2,7 @@ this is initial.
 
 this is second.
 
+bye
 hello hello
 
 hi hi
